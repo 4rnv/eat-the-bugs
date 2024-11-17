@@ -5,7 +5,7 @@ window.onload(
 
 async function getResponse() {
 	const response = await fetch(
-		'https://ip-api.com/json/?fields=status,message,country,regionName,city,lat,lon,query',
+		'http://ip-api.com/json/?fields=status,message,country,regionName,city,lat,lon,query',
 		{
 			method: 'GET',
 		}
